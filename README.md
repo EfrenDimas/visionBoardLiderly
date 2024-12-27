@@ -141,10 +141,10 @@ Aquí van los espacios donde colocarás las capturas de pantalla correspondiente
 - **Propósito**: Mi propósito de este año es seguir mejorando en el desarrollo de software, enfocándome especialmente en aprender nuevas tecnologías que me ayuden a crear soluciones más eficientes y escalables. También quiero mejorar mi capacidad para colaborar en equipo, compartiendo más ideas y ayudando a mis compañeros cuando lo necesiten.
 - **Reflexión**: Este año he aprendido la importancia de ser organizado y de gestionar bien mi tiempo. Aunque han habido desafíos, los he visto como oportunidades para crecer. La clave está en no rendirse, sino aprender de los errores y seguir adelante.
 
-#### **Montserrat ;)**:
+#### **Montserrat ;) **:
 - **Propósito**: Mi objetivo este año es fortalecer mis habilidades en programación de bases de datos y optimización de código. También me propongo mejorar mi capacidad de análisis y solución de problemas, enfrentando con más creatividad los desafíos técnicos que surjan.
 - **Reflexión**: Este año me ha enseñado mucho sobre la importancia de la paciencia y la perseverancia. No siempre las cosas salen como esperamos, pero he aprendido a ver los obstáculos como oportunidades para innovar y encontrar nuevas soluciones.
 
 #### **Moisés**:
-**Propósito**: Mi propósito para este año es adquirir una mayor experiencia trabajando en proyectos en equipo, además de profundizar mis conocimientos en desarrollo web y en tecnologías emergentes como la inteligencia artificial. También quiero ser más proactivo y tomar más responsabilidades en los proyectos.
+**Propósito**: Mi propósito para este año es adquirir una mayor experiencia trabajando en proyectos en equipo, además de profundizar mis conocimientos en desarrollo web y en tecnologías emergentes como la inteligencia artificial. También quiero ser más proactivo y tomar más responsabilidades en los proyectos.  
 **Reflexión**: Este año fue un desafío en términos de adaptación, pero he crecido mucho como programador. Aprendí que la comunicación es crucial dentro de un equipo, y cada miembro aporta algo único que enriquece el proyecto. Este año me siento más preparado para los retos del futuro.
