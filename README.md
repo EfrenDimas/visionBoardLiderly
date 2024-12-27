@@ -92,5 +92,54 @@ Aquí van los espacios donde colocarás las capturas de pantalla correspondiente
 - **Propósito**: Mi objetivo este año es fortalecer mis habilidades en programación de bases de datos y optimización de código. También me propongo mejorar mi capacidad de análisis y solución de problemas, enfrentando con más creatividad los desafíos técnicos que surjan.
 - **Reflexión**: Este año me ha enseñado mucho sobre la importancia de la paciencia y la perseverancia. No siempre las cosas salen como esperamos, pero he aprendido a ver los obstáculos como oportunidades para innovar y encontrar nuevas soluciones.
 
+2. **Crear las Tablas en la Base de Datos**:
 
+El siguiente script SQL se utiliza para crear las tablas necesarias en la base de datos, basadas en las clases User y Goal del proyecto.
+sql
+-- Crear tabla de Usuarios
+CREATE TABLE Users (
+    userID INT PRIMARY KEY IDENTITY(1,1),
+    username NVARCHAR(50) NOT NULL UNIQUE,
+    Password NVARCHAR(255) NOT NULL,
+    FullName NVARCHAR(100),
+    Email NVARCHAR(100),
+    CreatedDate DATETIME DEFAULT GETDATE(),
+    LastLoginDate DATETIME
+);
+
+-- Crear tabla de Metas
+CREATE TABLE Goals (
+    GoalID INT PRIMARY KEY IDENTITY(1,1),
+    userID INT NOT NULL,
+    Title NVARCHAR(255) NOT NULL,
+    Category NVARCHAR(100),
+    Description NVARCHAR(500),
+    DueDate DATETIME,
+    ImagePath NVARCHAR(255),
+    CreatedDate DATETIME DEFAULT GETDATE(),
+    Status NVARCHAR(50),
+    FOREIGN KEY (userID) REFERENCES Users(userID)
+);
+
+-- Insertar un usuario de ejemplo
+INSERT INTO Users (username, Password, FullName, Email)
+VALUES ('admin', 'adminpassword', 'Admin User', 'admin@example.com');
+
+-- Insertar una meta de ejemplo para el usuario admin
+INSERT INTO Goals (userID, Title, Category, Description, DueDate, Status)
+VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');
+3. **Configurar las Variables de Entorno**:
+   - Asegúrate de configurar las variables de entorno necesarias para la conexión con la base de datos:
+     - serverTestLiderly: Define la dirección del servidor de base de datos.
+     - dbTestLiderly: Define el nombre de la base de datos.
+   - Estas variables se utilizan para establecer la conexión con la base de datos en el código.
+
+4. **Restaurar la Base de Datos**:
+   - Restaura o configura la base de datos SQL Server que contiene las tablas necesarias (Users y Goals) en el equipo. Puedes utilizar el archivo .bak o ejecutar los scripts de creación de tablas proporcionados.
+
+5. **Abrir el Proyecto en VB6**:
+   - Abre el proyecto en Visual Basic 6.0 (con el archivo .vbp o .frm correspondiente).
+
+6. **Ejecutar la Aplicación**:
+   - Ejecuta el proyecto desde VB6 y asegúrate de que la conexión con la base de datos funcione correctamente. Si la configuración es correcta, deberías poder agregar y gestionar metas.
 
