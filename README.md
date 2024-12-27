@@ -32,7 +32,7 @@ Este es un proyecto de gestión de metas para usuarios que permite crear, actual
 
 El siguiente script SQL se utiliza para crear las tablas necesarias en la base de datos, basadas en las clases User y Goal del proyecto.  
 
-´´´sql
+```sql
 -- Crear tabla de Usuarios
 CREATE TABLE Users (
     userID INT PRIMARY KEY IDENTITY(1,1),
@@ -59,12 +59,13 @@ CREATE TABLE Goals (
 );
 
 -- Insertar un usuario de ejemplo
-INSERT INTO Users (username, Password, FullName, Email)
+INSERT INTO Users (username, Password, FullName, Email) 
 VALUES ('admin', 'adminpassword', 'Admin User', 'admin@example.com');
 
 -- Insertar una meta de ejemplo para el usuario admin
-INSERT INTO Goals (userID, Title, Category, Description, DueDate, Status)
-VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');´´´   
+INSERT INTO Goals (userID, Title, Category, Description, DueDate, Status) 
+VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');
+ 
 
 
 3. **Configurar las Variables de Entorno**:
@@ -144,7 +145,7 @@ Aquí van los espacios donde colocarás las capturas de pantalla correspondiente
 - **Propósito**: Mi propósito de este año es seguir mejorando en el desarrollo de software, enfocándome especialmente en aprender nuevas tecnologías que me ayuden a crear soluciones más eficientes y escalables. También quiero mejorar mi capacidad para colaborar en equipo, compartiendo más ideas y ayudando a mis compañeros cuando lo necesiten.
 - **Reflexión**: Este año he aprendido la importancia de ser organizado y de gestionar bien mi tiempo. Aunque han habido desafíos, los he visto como oportunidades para crecer. La clave está en no rendirse, sino aprender de los errores y seguir adelante.
 
-#### **Montserrat ;) **:
+#### **Montserrat ;)** :
 - **Propósito**: Mi objetivo este año es fortalecer mis habilidades en programación de bases de datos y optimización de código. También me propongo mejorar mi capacidad de análisis y solución de problemas, enfrentando con más creatividad los desafíos técnicos que surjan.
 - **Reflexión**: Este año me ha enseñado mucho sobre la importancia de la paciencia y la perseverancia. No siempre las cosas salen como esperamos, pero he aprendido a ver los obstáculos como oportunidades para innovar y encontrar nuevas soluciones.
 
