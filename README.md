@@ -64,7 +64,9 @@ VALUES ('admin', 'adminpassword', 'Admin User', 'admin@example.com');
 
 -- Insertar una meta de ejemplo para el usuario admin
 INSERT INTO Goals (userID, Title, Category, Description, DueDate, Status) 
-VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');```
+VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');   
+
+```
  
 
 
