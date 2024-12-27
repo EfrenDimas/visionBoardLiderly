@@ -1,5 +1,32 @@
 # VisionBoardLiderly
-Proyecto en vb6, conexion con db, uso de variables de entorno. podremos crear nuevas metas y cambiar de estado cada una de ellas. cuenta con login
+Proyecto en vb6, conexion con db, uso de variables de entorno. podremos crear nuevas metas y cambiar de estado cada una de ellas. cuenta con login.
+
+## Descripción
+
+Este es un proyecto de gestión de metas para usuarios que permite crear, actualizar, visualizar y completar metas. Los usuarios pueden ingresar sus objetivos, establecer fechas de vencimiento, cargar imágenes y seguir el progreso de sus metas. La aplicación está construida en Visual Basic 6.0 (VB6) y utiliza una base de datos SQL Server para almacenar la información de los usuarios y sus metas.
+## Integrantes del Proyecto
+
+**Efren Reyes**
+**Moisés Reyes**
+**Montserrat Aguilar**
+
+## Detalles Técnicos
+
+**Lenguaje de Programación**: Visual Basic 6.0 (VB6)
+**Base de Datos**: SQL Server
+**Conexión a la Base de Datos**: ADO (ActiveX Data Objects)
+**Entorno de Desarrollo**: VB6 y SQL Server
+**Variables de Entorno**: El proyecto utiliza variables de entorno para obtener las configuraciones del servidor y la base de datos. Las variables son:
+  - serverTestLiderly (Servidor de la base de datos)
+  - dbTestLiderly (Nombre de la base de datos)
+  
+  Estas deben estar configuradas correctamente en el entorno para que la conexión a la base de datos funcione sin problemas.
+
+  ## Pasos para Hacerlo Funcionar en Otro Equipo
+
+1. **Instalar el Entorno de Desarrollo**:
+   - Asegúrate de tener instalado **Visual Basic 6.0** en el equipo. Si no lo tienes, puedes buscarlo e instalarlo desde fuentes confiables.
+   - Instalar **SQL Server** o asegurarte de tener acceso a una base de datos SQL Server configurada correctamente.
 
 ## Capturas de Pantalla
 
