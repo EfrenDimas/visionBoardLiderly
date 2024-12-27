@@ -30,8 +30,9 @@ Este es un proyecto de gestión de metas para usuarios que permite crear, actual
    - 
 2. **Crear las Tablas en la Base de Datos**:
 
-El siguiente script SQL se utiliza para crear las tablas necesarias en la base de datos, basadas en las clases User y Goal del proyecto.
-sql
+El siguiente script SQL se utiliza para crear las tablas necesarias en la base de datos, basadas en las clases User y Goal del proyecto.  
+
+´´´sql
 -- Crear tabla de Usuarios
 CREATE TABLE Users (
     userID INT PRIMARY KEY IDENTITY(1,1),
@@ -63,7 +64,9 @@ VALUES ('admin', 'adminpassword', 'Admin User', 'admin@example.com');
 
 -- Insertar una meta de ejemplo para el usuario admin
 INSERT INTO Goals (userID, Title, Category, Description, DueDate, Status)
-VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');
+VALUES (1, 'Aprender VB6', 'Desarrollo', 'Meta para aprender Visual Basic 6.0', '2024-12-31', 'En progreso');´´´   
+
+
 3. **Configurar las Variables de Entorno**:
    - Asegúrate de configurar las variables de entorno necesarias para la conexión con la base de datos:
      - serverTestLiderly: Define la dirección del servidor de base de datos.
