@@ -146,5 +146,5 @@ Aquí van los espacios donde colocarás las capturas de pantalla correspondiente
 - **Reflexión**: Este año me ha enseñado mucho sobre la importancia de la paciencia y la perseverancia. No siempre las cosas salen como esperamos, pero he aprendido a ver los obstáculos como oportunidades para innovar y encontrar nuevas soluciones.
 
 #### **Moisés**:
-**Propósito**: Mi propósito para este año es adquirir una mayor experiencia trabajando en proyectos en equipo, además de profundizar mis conocimientos en desarrollo web y en tecnologías emergentes como la inteligencia artificial. También quiero ser más proactivo y tomar más responsabilidades en los proyectos.  
-**Reflexión**: Este año fue un desafío en términos de adaptación, pero he crecido mucho como programador. Aprendí que la comunicación es crucial dentro de un equipo, y cada miembro aporta algo único que enriquece el proyecto. Este año me siento más preparado para los retos del futuro.
+- **Propósito**: Mi propósito para este año es adquirir una mayor experiencia trabajando en proyectos en equipo, además de profundizar mis conocimientos en desarrollo web y en tecnologías emergentes como la inteligencia artificial. También quiero ser más proactivo y tomar más responsabilidades en los proyectos.  
+- **Reflexión**: Este año fue un desafío en términos de adaptación, pero he crecido mucho como programador. Aprendí que la comunicación es crucial dentro de un equipo, y cada miembro aporta algo único que enriquece el proyecto. Este año me siento más preparado para los retos del futuro.
