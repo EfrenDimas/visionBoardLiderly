@@ -6,9 +6,9 @@ Proyecto en vb6, conexion con db, uso de variables de entorno. podremos crear nu
 Este es un proyecto de gestión de metas para usuarios que permite crear, actualizar, visualizar y completar metas. Los usuarios pueden ingresar sus objetivos, establecer fechas de vencimiento, cargar imágenes y seguir el progreso de sus metas. La aplicación está construida en Visual Basic 6.0 (VB6) y utiliza una base de datos SQL Server para almacenar la información de los usuarios y sus metas.
 ## Integrantes del Proyecto
 
-**Efren Reyes**
-**Moisés Reyes**
-**Montserrat Aguilar**
+- **Efren Reyes**
+- **Moisés Reyes**
+- **Montserrat Aguilar**
 
 ## Detalles Técnicos
 
