@@ -9,6 +9,7 @@ Este es un proyecto de gestión de metas para usuarios que permite crear, actual
 - **Efren Reyes**
 - **Moisés Reyes**
 - **Montserrat Aguilar**
+- **Jonatan Rodriguez**
 
 ## Detalles Técnicos
 
@@ -154,3 +155,7 @@ Aquí van los espacios donde colocarás las capturas de pantalla correspondiente
 #### **Moisés**:
 - **Propósito**: Mi propósito para este año es adquirir una mayor experiencia trabajando en proyectos en equipo, además de profundizar mis conocimientos en desarrollo web y en tecnologías emergentes como la inteligencia artificial. También quiero ser más proactivo y tomar más responsabilidades en los proyectos.  
 - **Reflexión**: Este año fue un desafío en términos de adaptación, pero he crecido mucho como programador. Aprendí que la comunicación es crucial dentro de un equipo, y cada miembro aporta algo único que enriquece el proyecto. Este año me siento más preparado para los retos del futuro.
+
+#### **Jonatan**:
+- **Propósito**: Establecer una rutina semanal que combine ejercicio físico, como caminar o hacer ejercicio en casa, con tiempo dedicado a mejorar mis habilidades de programación, aprendiendo nuevas tecnologías o trabajando en proyectos personales, de manera que pueda mejorar tanto mi bienestar físico como mi desarrollo profesional.  
+- **Reflexión**: Este año ha sido uno de esos en los que cada día ha significado algo diferente, y aunque me ha dejado super cansado en algunos momentos, también me ha permitido darme cuenta de como de fuerte y adaptable puedo ser. Aprender tantas cosas nuevas y adaptarme a una empresa diferente fue un reto que, en su momento, me pareció abrumador. La incertidumbre y el estrés parecían ser compañeros constantes, pero al mirar hacia atrás, veo cuánto he crecido.
